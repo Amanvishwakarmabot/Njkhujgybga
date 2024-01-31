@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '21956488'))
 API_HASH = environ.get('API_HASH', '812529f879f06436925c7d62eb49f5d1')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6530686749:AAGBx7X3K1hRZXu4mG6BKgzLnNPF_8-Pnh4")  # Please Don`t remove dev credit 
+BOT_TOKEN = environ.get('BOT_TOKEN', "6726031505:AAEM2q-VJOqql7_LYBX-uRtcQMtg5b0lA2U")  # Please Don`t remove dev credit 
                                                                                         # Vansh-Yadav TG-@None_090 contact paid repo editing and buy
 
 # Bot settings
@@ -72,7 +72,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/rtx_backup')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/rtx_backup/18')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : Vᴀɴꜱʜ - Yᴀᴅᴀᴠ')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002110971750'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002062708890'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
